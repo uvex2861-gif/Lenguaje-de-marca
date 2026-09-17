@@ -1,0 +1,16 @@
+# Ejercicio1
+
+Si el texto lo abres no se  podra leer nada porque no esta en el formato correspondiente pero si lo cambias y se pone .html en vez de .txt si que lo podra leer
+```
+<dam>
+<modulo><titulo>Lenguaje de Marcas</titulo>
+<contenido>
+<unidad>Introducción</unidad>
+<unidad>HTML</unidad>
+<unidad>CSS</unidad>
+…
+</contenido>
+</modulo>
+…
+</dam>
+´´

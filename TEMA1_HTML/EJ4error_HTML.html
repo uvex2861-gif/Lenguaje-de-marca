@@ -1,0 +1,26 @@
+<!-- ERROR 1: Doctype incorrecto ("htm" en lugar de "html") -->
+<!DOCTYPE htm>
+
+<!-- ERROR 2: Atributo mal escrito ("lan" en vez de "lang") y valor sin comillas -->
+<html lan=es>
+<head>
+<!-- ERROR 3: Falta la etiqueta de cierre </title> -->
+<title>Página de contacto
+</head>
+<body>
+<!-- ERROR 4: La etiqueta final es de apertura (<h1>) en lugar de cierre (</h1>) -->
+<h1>Contacto<h1>
+
+<!-- ERROR 5: Etiquetas mal anidadas (cruzadas). Debe cerrarse </b> antes de </p> -->
+<p>Escríbenos a <b>info@instituto.es</p></b>
+
+<!-- ERROR 6: Párrafo sin cerrar (falta </p>) antes de la lista -->
+<p>Horario de atención: Lunes a Viernes, 9:00 - 14:00
+
+<ul>
+<!-- ERROR 7: Falta la etiqueta de cierre </li> en cada elemento -->
+<li>Teléfono
+<li>Email
+</ul>
+</body>
+</html>

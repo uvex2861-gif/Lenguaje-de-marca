@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360">
+  <rect width="600" height="360" fill="#1f2937"/>
+  <circle cx="300" cy="170" r="95" fill="none" stroke="#f9fafb" stroke-width="18"/>
+  <circle cx="300" cy="170" r="22" fill="#f9fafb"/>
+  <line x1="300" y1="148" x2="300" y2="75" stroke="#f9fafb" stroke-width="14"/>
+  <line x1="281" y1="181" x2="218" y2="218" stroke="#f9fafb" stroke-width="14"/>
+  <line x1="319" y1="181" x2="382" y2="218" stroke="#f9fafb" stroke-width="14"/>
+  <text x="300" y="320" font-family="sans-serif" font-size="28" fill="#f9fafb" text-anchor="middle">Proyecto: tienda de volantes</text>
+</svg>

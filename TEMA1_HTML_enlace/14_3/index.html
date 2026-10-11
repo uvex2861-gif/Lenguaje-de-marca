@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guía básica de HTML</title>
+</head>
+<body>
+  <h1 id="inicio">Guía básica de HTML</h1>
+
+  <nav>
+    <h2 id="indice">Índice</h2>
+    <ul>
+      <li><a href="#que-es">1. ¿Qué es HTML?</a></li>
+      <li><a href="#estructura">2. Estructura de una página</a></li>
+      <li><a href="#textos">3. Títulos y párrafos</a></li>
+      <li><a href="#enlaces">4. Enlaces</a></li>
+      <li><a href="#listas">5. Listas</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h2 id="que-es">1. ¿Qué es HTML?</h2>
+    <p>HTML (HyperText Markup Language) es el lenguaje de marcado con el que se describe el contenido de una página web. No es un lenguaje de programación: no calcula ni toma decisiones, sino que indica qué es cada parte del contenido, por ejemplo un título, un párrafo o una imagen.</p>
+    <p>El navegador lee el código HTML y lo convierte en la página que vemos. Junto con CSS, que se encarga del aspecto, y JavaScript, que añade comportamiento, forma la base de casi todo lo que se ve en internet.</p>
+    <p><a href="#indice">↑ Volver al índice</a></p>
+  </section>
+
+  <section>
+    <h2 id="estructura">2. Estructura de una página</h2>
+    <p>Todo documento HTML empieza con la declaración <code>&lt;!DOCTYPE html&gt;</code> y se envuelve en la etiqueta <code>&lt;html&gt;</code>. Dentro hay dos bloques principales: <code>&lt;head&gt;</code>, con información sobre la página como el título o la codificación, y <code>&lt;body&gt;</code>, con el contenido visible.</p>
+    <p>Es importante indicar siempre <code>&lt;meta charset="UTF-8"&gt;</code> en el <code>head</code>; así los acentos y la letra ñ se muestran bien. También conviene declarar el idioma con <code>lang="es"</code> en la etiqueta <code>html</code>.</p>
+    <p><a href="#indice">↑ Volver al índice</a></p>
+  </section>
+
+  <section>
+    <h2 id="textos">3. Títulos y párrafos</h2>
+    <p>Los títulos se escriben con las etiquetas <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code>, de mayor a menor importancia. Lo recomendable es usar un único <code>h1</code> por página y emplear los demás niveles para organizar el contenido en secciones y subsecciones.</p>
+    <p>Los párrafos de texto se marcan con <code>&lt;p&gt;</code>. El navegador separa cada párrafo del siguiente de forma automática, así que no hace falta añadir saltos de línea a mano; para eso existe <code>&lt;br&gt;</code>, que se reserva para casos concretos como una dirección postal.</p>
+    <p><a href="#indice">↑ Volver al índice</a></p>
+  </section>
+
+  <section>
+    <h2 id="enlaces">4. Enlaces</h2>
+    <p>Los enlaces se crean con la etiqueta <code>&lt;a&gt;</code> y su atributo <code>href</code>, que indica el destino. Pueden apuntar a otra página de internet, a otro archivo de nuestro propio sitio o incluso a un punto concreto de la misma página mediante un ancla.</p>
+    <p>El texto del enlace debe ser descriptivo. Una frase como «pincha aquí» no dice nada a quien usa un lector de pantalla ni a los buscadores; es mucho mejor indicar claramente a dónde lleva, por ejemplo «descargar la guía de instalación».</p>
+    <p><a href="#indice">↑ Volver al índice</a></p>
+  </section>
+
+  <section>
+    <h2 id="listas">5. Listas</h2>
+    <p>HTML ofrece listas sin orden, con <code>&lt;ul&gt;</code>, y listas ordenadas, con <code>&lt;ol&gt;</code>. En ambos casos cada elemento se escribe dentro de una etiqueta <code>&lt;li&gt;</code>. Las listas sin orden se muestran con viñetas y las ordenadas con números.</p>
+    <p>Las listas son muy útiles para construir menús de navegación, ya que un menú no deja de ser una lista de enlaces. Más adelante, con CSS, se puede cambiar por completo su aspecto para que parezcan botones o una barra horizontal.</p>
+    <p><a href="#indice">↑ Volver al índice</a></p>
+  </section>
+
+  <p><a href="#inicio">↑ Ir arriba del todo</a></p>
+</body>
+</html>

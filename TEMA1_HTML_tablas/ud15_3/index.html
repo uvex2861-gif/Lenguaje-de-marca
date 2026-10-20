@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Carta de la cafetería</title>
+  <style>
+    table { border-collapse: collapse; width: 60%; }
+    th, td { border: 1px solid #1a1717; padding: 6px 10px; }
+    th { background-color: #4f4343; color: white; }
+    .seccion { background-color: #d9c3a5; font-weight: bold; text-align: center; }
+    .gris td { background-color: #f2f2f2; }
+    .blanco td { background-color: #ffffff; }
+  </style>
+</head>
+<body>
+  <table>
+    <caption>Carta de la cafetería</caption>
+    <tr>
+      <th>Producto</th>
+      <th>Tamaño</th>
+      <th>Precio</th>
+    </tr>
+    <tr>
+      <td class="seccion" colspan="3">Desayunos</td>
+    </tr>
+    
+    <tr class="gris">
+      <td rowspan="2">Café con leche</td>
+      <td>Pequeño</td>
+      <td>1,50 €</td>
+    </tr>
+    <tr class="gris">
+      <td>Grande</td>
+      <td>2,00 €</td>
+    </tr>
+    <tr class="blanco">
+      <td rowspan="2">Tostada con tomate</td>
+      <td>Media</td>
+      <td>1,80 €</td>
+    </tr>
+    <tr class="blanco">
+      <td>Entera</td>
+      <td>2,80 €</td>
+    </tr>
+    <tr>
+      <td class="seccion" colspan="3">Bebidas</td>
+    </tr>
+    <tr class="gris">
+      <td rowspan="2">Zumo de naranja</td>
+      <td>Vaso</td>
+      <td>2,50 €</td>
+    </tr>
+    <tr class="gris">
+      <td>Jarra</td>
+      <td>4,50 €</td>
+    </tr>
+    <tr class="blanco">
+      <td>Agua mineral</td>
+      <td>50 cl</td>
+      <td>1,20 €</td>
+    </tr>
+  </table>
+</body>
+</html>

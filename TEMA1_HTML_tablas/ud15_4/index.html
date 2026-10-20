@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Pedido de material informático</title>
+  <style>
+    table { border-spacing: 5px; empty-cells: hide; font-family: Arial, sans-serif; }
+    caption { caption-side: bottom; font-style: italic; padding-top: 9px; }
+    th, td { border: 1px solid #110909; padding: 6px 12px; }
+    thead th { background: #2e5c8a; color: #fff; }
+    tfoot td { background: #ffe9a8; font-weight: bold; }
+    .categoria { background: #dce8f5; font-weight: bold; vertical-align: middle; }
+</style>
+</head>
+<body>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Categoría</th>
+        <th>Producto</th>
+        <th>Cantidad</th>
+        <th>Precio unitario</th>
+        <th>Subtotal</th>
+        <th>Observaciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="categoria" rowspan="3">Periféricos</td>
+        <td>Teclado</td>
+        <td>2</td>
+        <td>25,00 €</td>
+        <td>50,00 €</td>
+        <td>Layout español</td>
+      </tr>
+      <tr>
+        <td>Ratón</td>
+        <td>3</td>
+        <td>12,00 €</td>
+        <td>36,00 €</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Monitor</td>
+        <td>1</td>
+        <td>150,00 €</td>
+        <td>150,00 €</td>
+        <td>24 pulgadas</td>
+      </tr>
+      <tr>
+        <td class="categoria" rowspan="2">Almacenamiento</td>
+        <td>Disco SSD</td>
+        <td>2</td>
+        <td>60,00 €</td>
+        <td>120,00 €</td>
+        <td>500 GB</td>
+      </tr>
+      <tr>
+        <td>Pendrive</td>
+        <td>5</td>
+        <td>8,00 €</td>
+        <td>40,00 €</td>
+        <td>USB 3.0</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">Total</td>
+        <td>396,00 €</td>
+        <td></td>
+      </tr>
+    </tfoot>
+    <caption>Pedido de material informático</caption>
+  </table>
+</body>
+</html>

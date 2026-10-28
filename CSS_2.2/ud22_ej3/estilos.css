@@ -1,0 +1,36 @@
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: #f4f1ea;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Menú horizontal sin viñetas ni sangrado */
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cada opción: borde, fondo, espacio interior, separación y esquinas redondeadas */
+nav li {
+  background-color: #00695c;
+  border: 2px solid #004d40;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 999px;
+}
+
+/* Enlaces sin subrayado y con texto claro que contrasta con el fondo */
+nav a {
+  color: #fff8e1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Opcional: cambio de fondo al pasar el ratón */
+nav li:hover {
+  background-color: #ff8f00;
+  border-color: #e65100;
+}

@@ -1,0 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+ul.tareas {
+  list-style: url("img/check.svg") outside disc;
+}
+
+ul.tareas li {
+  margin-bottom: 8px;
+}

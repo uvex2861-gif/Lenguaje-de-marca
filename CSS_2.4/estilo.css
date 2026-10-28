@@ -1,0 +1,50 @@
+.pagina {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.cabecera {
+    background-color: #6882a7;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.contenido {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    display: flex;
+
+}  
+.pie {
+    background-color: #6d96ac;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+.tarjeta {
+    width: 210px;
+    background-color: #535d93;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.tarjeta3 {
+    width: 210px;
+    background-color: #535d93;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+    }
+.etiqueta {
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    font-weight: bold;
+    color: #000000;
+    display: inline-block;
+
+}

@@ -1,0 +1,23 @@
+/* 1. El <em> del <h1> en naranja (el <em> del <li> no cambia) */
+h1 em {
+  color: orange;
+}
+
+/* 2. Fondo gris claro solo a los <p> que están dentro de un <li> */
+li p {
+  background-color: #e6e6e6;
+}
+
+.comentarios p {
+  border-left: 4px solid #555;
+  padding-left: 10px;
+}
+
+p.especial {
+  color: crimson;
+  font-weight: bold;
+}
+
+.especial {
+  background-color: #fff3a0;
+}

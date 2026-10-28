@@ -1,0 +1,18 @@
+/* Selector universal: fija la fuente de toda la página */
+* {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+h1 {
+  color: #b22222;
+  text-align: center;
+  border-bottom: 3px solid #b22222;
+}
+
+h2 {
+  color: #2e7d32;
+}
+
+p {
+  text-align: justify;
+}

@@ -1,0 +1,2 @@
+Para el ejercicio probé a usar el ID corp repetido en un <h1> y un <h2>, pero el validador del W3C me dio un error de Duplicate ID. Lo corregí dejando el ID únicamente en el <h1> y cambiando el <h2> a una clase, ya que los ID deben ser únicos y ses desaconsejable en CSS por su alta especificidad y falta de reusabilidad. 
+Por último, en la parte de atributos apliqué a[target] para destacar en naranja y negrita solo los enlaces con ese atributo, y p[class] para poner fondo azul únicamente a los párrafos que contienen alguna clase.

@@ -1,0 +1,1 @@
+Para cambiar el color del título en 10 páginas, lo más cómodo es el archivo externo, porque cambias una sola línea y se actualiza en todas. El estilo en línea se desaconseja porque mezcla contenido y diseño, hay que repetirlo en cada elemento y no se puede reutilizar.

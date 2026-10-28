@@ -1,0 +1,24 @@
+/* ===== Parte A: selector de id (solo el h1) y clase (h2) ===== */
+#corp {
+  color: #0d1b5e;
+  text-align: center;
+}
+
+.corp {
+  color: #0d1b5e;
+  font-style: italic;
+}
+
+/* ===== Parte B: selectores de atributo ===== */
+
+/* Enlaces que tienen el atributo target */
+a[target] {
+  color: #d84315;
+  font-weight: bold;
+}
+
+/* Párrafos que tienen el atributo class */
+p[class] {
+  background-color: #a8cfec;
+  padding: 6px;
+}

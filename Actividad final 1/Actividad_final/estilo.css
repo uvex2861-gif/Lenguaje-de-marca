@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,700");
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
+	color: #222;
+	background: #fff;
+}
+
+/* ===== Encabezado ===== */
+header {
+	background-color: #eee;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px 20px;
+	text-align: center;
+}
+
+header img {
+	width: 110px;
+	height: auto;
+}
+
+header .titulo h1 {
+	margin: 0;
+	font-size: 60px;
+	color: #5a0000;
+}
+
+header .titulo h2 {
+	margin: 5px 0 0;
+	font-size: 2em;
+	color: #003d00;
+}
+
+/* ===== Navegación ===== */
+nav {
+	background-color: #eee;
+	margin: 8px 0;
+	padding: 8px 0;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 14px;
+}
+
+nav a {
+	display: inline-block;
+	padding: 4px 2px;
+	color: #222;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
+}
+
+nav a:hover {
+	color: red;
+	border-bottom: 2px solid red;
+}
+/* ===== Redes sociales ===== */
+section {
+	padding: 8px 0;
+	text-align: center;
+	font-size: 0; /* elimina el hueco entre elementos inline-block */
+}
+
+article {
+	display: inline-block;
+	vertical-align: top;
+	width: 33.33%;
+	min-height: 255px;
+	padding: 20px;
+	text-align: left;
+	font-size: 16px;
+}
+
+article:nth-child(1) { background-color: rgba(162, 179, 188, 0.5); }  /* Facebook  */
+article:nth-child(2) { background-color: rgba(241, 151, 79, 0.5); }   /* Twitter   */
+article:nth-child(3) { background-color: rgba(208, 61, 107, 0.5); }   /* YouTube   */
+article:nth-child(4) { background-color: rgba(195, 23, 65, 0.5); }    /* LinkedIn  */
+article:nth-child(5) { background-color: rgba(109, 104, 166, 0.5); }  /* Instagram */
+article:nth-child(6) { background-color: rgba(156, 154, 203, 0.5); }  /* Pinterest */
+
+article h3 {
+	margin: 0 0 12px;
+	font-size: 25px;
+}
+
+article p {
+	margin: 0;
+	line-height: 1.5;
+	clear: left;
+}
+
+/* ===== Pie de página ===== */
+footer {
+	background-color: #eee;
+	text-align: center;
+	padding: 8px 0 4px;
+}
+
+footer .iconos img {
+	width: 50px;
+	height: 50px;
+	margin: 0 2px;
+	transition: transform 0.2s ease;
+}
+
+/* =====Hace que los iconos del footer se hagna un poco mas grandes===== */
+
+footer .iconos img:hover {
+	transform: scale(1.25);
+}
+
+footer p {
+	margin: 6px 0 0;
+	font-size: 0.75em;
+	color: #444;
+}
+
+/* ===== Imágenes de las redes sociales ===== */
+.social {
+	transition: transform 0.2s ease;   /* animación suave al pasar el ratón */
+}
+
+.social:hover {
+	transform: scale(1.25);            /* se agranda al pasar el ratón */
+}
+
+/* Tamaño de los logos dentro de los artículos */
+article .social {
+	float: left;
+	width: 70px;
+	height: 70px;
+	margin: 0 15px 10px 0;
+}
+
+/* Tamaño de los iconos del footer */
+footer .social {
+	width: 50px;
+	height: 50px;
+	margin: 0 2px;
+}

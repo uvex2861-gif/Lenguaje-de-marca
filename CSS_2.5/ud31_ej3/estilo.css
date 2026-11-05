@@ -1,0 +1,100 @@
+/* ===== Estilos generales ===== */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
+  color: #333;
+  padding-bottom: 6px;
+}
+
+h3 {
+  margin-bottom: 6px;
+  color: #555;
+}
+
+/* ===== Parte A: tarjeta de producto ===== */
+.tarjeta {
+  width: 300px;
+  border: 2px solid #444;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 20px 20px 20px 0;
+  background: #fff;
+  position: relative;               /* Referencia para la etiqueta absoluta */
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.tarjeta-color {
+  width: 100%;
+  height: 120px;
+  background: #3b82f6;              /* Recuadro de color en lugar de foto */
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.tarjeta h2 {
+  font-size: 18px;
+  margin: 0 0 8px 0;
+}
+
+.precio {
+  font-size: 16px;
+  font-weight: bold;
+  color: #16a34a;
+  margin: 0;
+}
+
+/* Etiqueta -20%: sobresale por la esquina superior derecha,por usar obsolute y por el top y right */
+.etiqueta {
+  position: absolute;  
+  top: -10px;
+  right: -10px;
+  background: #dc2626;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 20px;
+}
+
+/* La tarjeta recortada: overflow hidden corta la etiqueta */
+.tarjeta-recortada {
+  overflow: hidden;
+}
+
+/* ===== Parte B: caja de comentarios (300x120) ===== */
+.caja-comentarios {
+  width: 300px;
+  height: 120px;
+  border: 2px solid #444;
+  background: #fff;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.caja-comentarios p {
+  margin: 0 0 6px 0;
+}
+
+.ov-visible { overflow: visible; }
+.ov-hidden  { overflow: hidden;  }  
+.ov-scroll  { overflow: scroll;  }  
+.ov-auto    { overflow: auto;    }  
+
+
+
+.visibility_hidden {
+  visibility: hidden;   /* Oculta, pero SIGUE ocupando su hueco */
+}
+
+.display_none {
+  display: none;        /* Oculta y NO ocupa espacio: no deja hueco */
+}

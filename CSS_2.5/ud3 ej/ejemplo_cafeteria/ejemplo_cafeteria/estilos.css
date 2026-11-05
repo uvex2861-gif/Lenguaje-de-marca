@@ -1,0 +1,18 @@
+.tarjeta {
+  width: 200px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  position: relative;   /* la etiqueta se colocará respecto a esta tarjeta */
+  overflow: visible;    /* prueba a cambiarlo a hidden y mira qué pasa */
+}
+
+.etiqueta {
+  position: absolute;   /* sale del flujo normal */
+  top: -10px;           /* sobresale por arriba */
+  right: -10px;         /* y por la derecha */
+  background: tomato;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}

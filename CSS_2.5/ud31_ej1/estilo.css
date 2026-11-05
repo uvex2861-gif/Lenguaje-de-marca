@@ -1,0 +1,56 @@
+.contenedor {
+    width: 300px;
+    border: 1px solid #000;
+    position: relative;
+}
+
+.cuadro {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 100px;
+    font-size: 24px;
+}
+
+.tarjeta {
+    width: 200px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+}
+.foto {
+    width: 200px;
+    background-color: #941919;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    right: 12px;
+}
+.descripcion {
+    width: 20px;
+    height: 10px;
+    padding: 10px;
+}
+
+.c1 {
+    background-color: red;
+    left: 50px;
+    z-index: 1;
+    position: relative;
+}
+.c2 {
+    background-color: green;
+    position: relative;
+    left: 50px;
+    top: -40px;
+}
+.c3 {
+    background-color: blue;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}

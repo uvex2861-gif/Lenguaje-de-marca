@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UD 3.1 - Posicionamiento y overflow</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <h1>Parte A: Etiqueta sobre la tarjeta</h1>
+
+  <!-- Tarjeta 1: overflow visible (la etiqueta se ve completa) -->
+  <div class="tarjeta tarjeta-visible">
+    <div class="tarjeta-color"></div>
+    <h2>Zapatillas Runner</h2>
+    <p class="precio">49,90 €</p>
+    <span class="etiqueta">-20%</span>
+  </div>
+
+  <h1>Parte B: Caja de comentarios</h1>
+
+  <h3>overflow: visible</h3>
+  <div class="caja-comentarios ov-visible">
+    <p>Comentario 1: Me encanta este producto, llegó rápido.</p>
+    <p>Comentario 2: La calidad es buena para el precio.</p>
+    <p>Comentario 3: El envío fue rápido y el embalaje perfecto.</p>
+    <p>Comentario 4: La atención al cliente fue .</p>
+  
+  </div>
+
+  <h3>overflow: hidden</h3>
+  <div class="caja-comentarios ov-hidden">
+    <p>Comentario 1: Me encanta este producto, llegó rápido.</p>
+    <p>Comentario 2: La calidad es buena para el precio.</p>
+    <p>Comentario 3: El envío fue rápido y el embalaje perfecto.</p>
+    <p>Comentario 4: La atención al cliente fue excelente.</p>
+    <p>Comentario 5: Repetiré la compra sin duda.</p>
+    <p>Comentario 6: El producto llegó en perfectas condiciones.</p>
+  </div>
+
+  <h3>overflow: scroll</h3>
+  <div class="caja-comentarios ov-scroll">
+    <p>Comentario 1: Me encanta este producto, llegó rápido.</p>
+    <p>Comentario 2: La calidad es buena para el precio.</p>
+    <p>Comentario 3: El envío fue rápido y el embalaje perfecto.</p>
+    <p>Comentario 4: La atención al cliente fue excelente.</p>
+    <p>Comentario 5: Repetiré la compra sin duda.</p>
+    <p>Comentario 6: El producto llegó en perfectas condiciones.</p>
+  </div>
+
+  <h3>overflow: auto</h3>
+  <div class="caja-comentarios ov-auto">
+    <p>Comentario 1: Me encanta este producto, llegó rápido.</p>
+    <p>Comentario 2: La calidad es buena para el precio.</p>
+    <p>Comentario 3: El envío fue rápido y el embalaje perfecto.</p>
+    <p>Comentario 4: La atención al cliente fue excelente.</p>
+    <p>Comentario 5: Repetiré la compra sin duda.</p>
+    <p>Comentario 6: El producto llegó en perfectas condiciones.</p>
+  </div> 
+
+   <div class="tarjeta visibility_hidden">
+    <div class="tarjeta-color"></div>
+    <h2>Zapatillas Runner</h2>
+    <p class="precio">49,90 €</p>
+    <span class="etiqueta">-20%</span>
+  </div>
+
+   <div class="tarjeta display_none">
+    <div class="tarjeta-color"></div>
+    <h2>Zapatillas Runner</h2>
+    <p class="precio">49,90 €</p>
+    <span class="etiqueta">-20%</span>
+  </div>
+</body>
+</html>
